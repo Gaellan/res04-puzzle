@@ -1,16 +1,12 @@
 
+
+
 window.addEventListener("DOMContentLoaded", function(){
-    
+    let images = [209, 427, 311, 439, 115, 456, 153, 6, 97, 152, 332, 3, 281, 225, 327, 366, 399, 375, 
+        444, 42, 255, 238, 348, 39, 434, 286, 79, 254, 87, 411, 54, 139, 67, 287, 103, 45, 261, 149, 171];
 
-    function Puzzler3()
+    function Puzzler9()
     {
-        let images = [  367, 99, 65, 50, 156, 72, 265, 
-            350, 362, 155, 410, 450, 359, 
-            15, 422, 162, 127, 186, 85, 188, 
-            168, 330, 203, 40, 377, 214, 401, 
-            335, 247, 199, 328, 303, 252, 382, 
-            59, 184, 106, 57, 307];
-
         let positionColonne;
         let positionLigne;
         const grid = document.querySelector('main');
@@ -31,7 +27,7 @@ window.addEventListener("DOMContentLoaded", function(){
         }
     }
 
-    Puzzler3();
+    Puzzler9();
 });
 
-export { Puzzler3 };
+

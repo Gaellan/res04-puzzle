@@ -23,3 +23,4 @@ window.addEventListener("DOMContentLoaded",function() {
     placeImg();
     
 })
+export {placeImg}
