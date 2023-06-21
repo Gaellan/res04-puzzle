@@ -1,7 +1,11 @@
 window.addEventListener("DOMContentLoaded", function(){
     
 
-    function Puzzler6()
+    
+    Puzzler6();
+});
+
+function Puzzler6()
     {
         let images = [442, 446, 258, 179, 197, 88, 425, 347, 340, 318, 37, 119, 120, 185, 200, 376, 216, 84, 246, 226, 426, 26, 408, 211, 128, 213, 453, 420, 242, 259, 180, 35, 32, 379, 154, 190, 441, 100, 78];
 
@@ -25,8 +29,5 @@ window.addEventListener("DOMContentLoaded", function(){
             grid.appendChild(region);
         }
     }
-
-    Puzzler6();
-});
 
 export { Puzzler6 };

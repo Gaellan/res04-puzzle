@@ -1,8 +1,9 @@
 
 window.addEventListener("DOMContentLoaded", function(){
-    
+    Puzzler3();
+});
 
-    function Puzzler3()
+function Puzzler3()
     {
         let images = [  367, 99, 65, 50, 156, 72, 265, 
             350, 362, 155, 410, 450, 359, 
@@ -30,8 +31,5 @@ window.addEventListener("DOMContentLoaded", function(){
             grid.appendChild(region);
         }
     }
-
-    Puzzler3();
-});
 
 export { Puzzler3 };

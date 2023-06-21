@@ -15,7 +15,7 @@ function imagesPlacement () {
         }
 
         let section = document.createElement("section");
-        section.style.backgroundImage = `url("assests/images/spicegirls_row-${row}-column-${column}.jpg")`;
+        section.style.backgroundImage = `url("assets/images/spicegirls_row-${row}-column-${column}.jpg")`;
         section.style.gridArea = `${row}/ ${column}/ span 1/ span 1`;
         main.appendChild(section);
     }
