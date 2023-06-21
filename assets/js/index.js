@@ -9,6 +9,7 @@ import { puzzle04 } from './francis-rxl.js';
 import { render2 } from './komla-a.js';
 import { Puzzler11 } from './kevin-puzzle11.js';
 import { Puzzler12 } from './kevin-puzzle12.js';
+import { Puzzler7 } from './kq.js';
 
 window.addEventListener("DOMContentLoaded", function(){
     Puzzler3();
@@ -22,4 +23,5 @@ window.addEventListener("DOMContentLoaded", function(){
     render2();
     Puzzler11();
     Puzzler12();
+    Puzzler7();
 });
