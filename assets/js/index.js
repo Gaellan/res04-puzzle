@@ -7,6 +7,8 @@ import { Puzzler9 } from './guillaumeT.js';
 import { Puzzler6 } from './magomed-m.js';
 import { puzzle04 } from './francis-rxl.js';
 import { render2 } from './komla-a.js';
+import { Puzzler11 } from './kevin-puzzle11.js';
+import { Puzzler12 } from './kevin-puzzle12.js';
 
 window.addEventListener("DOMContentLoaded", function(){
     Puzzler3();
@@ -18,4 +20,6 @@ window.addEventListener("DOMContentLoaded", function(){
     Puzzler6();
     puzzle04();
     render2();
+    Puzzler11();
+    Puzzler12();
 });
