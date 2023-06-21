@@ -1,16 +1,6 @@
-
-window.addEventListener("DOMContentLoaded", function(){
-    Puzzler3();
-});
-
-function Puzzler3()
+function Puzzler12()
 {
-    let images = [  367, 99, 65, 50, 156, 72, 265, 
-        350, 362, 155, 410, 450, 359, 
-        15, 422, 162, 127, 186, 85, 188, 
-        168, 330, 203, 40, 377, 214, 401, 
-        335, 247, 199, 328, 303, 252, 382, 
-        59, 184, 106, 57, 307];
+    let images = [89, 178, 141, 262, 365, 455, 310, 397, 339, 114, 91, 253, 415, 10, 245, 443, 241, 173, 393, 217, 302, 263, 23, 331, 301, 230, 326, 51];
     let positionColonne;
     let positionLigne;
     const grid = document.querySelector('main');
@@ -30,4 +20,4 @@ function Puzzler3()
     }
 }
 
-export { Puzzler3 };
+export { Puzzler12 };
