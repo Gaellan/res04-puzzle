@@ -1,0 +1,19 @@
+body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+body header h1 {
+    font-size:2.8rem;
+    text-align:center;
+    margin:.5rem;
+}
+
+body main {
+    display:grid;
+    grid-template-columns:repeat(19, calc(80vw / 19));
+    grid-template-rows:repeat(24, calc(90vh / 24));
+    justify-content:center;
+}
