@@ -13,7 +13,7 @@ body header h1 {
 
 body main {
     display:grid;
-    grid-template-columns:repeat(19, calc(80vw / 19));
-    grid-template-rows:repeat(24, calc(90vh / 24));
+    grid-template-columns:repeat(19, calc(1920px / 19));
+    grid-template-rows:repeat(24, calc(1080px / 24));
     justify-content:center;
 }
