@@ -1,8 +1,14 @@
 window.addEventListener("DOMContentLoaded",function() {
-    let images = [27, 16, 454, 60, 182, 93, 355, 38, 21, 58, 18, 90, 201, 284, 421, 447, 297, 257, 438, 291, 437, 151, 353, 389, 234, 398, 396, 172, 158, 271, 98, 105, 272, 183, 266, 174, 133, 293, 86];
+    
 
-    function placeImg ()
+    
+    placeImg();
+    
+})
+
+function placeImg ()
     {
+        let images = [27, 16, 454, 60, 182, 93, 355, 38, 21, 58, 18, 90, 201, 284, 421, 447, 297, 257, 438, 291, 437, 151, 353, 389, 234, 398, 396, 172, 158, 271, 98, 105, 272, 183, 266, 174, 133, 293, 86];
         let main = document.querySelector("main");
 
         for (let image of images)
@@ -20,7 +26,5 @@ window.addEventListener("DOMContentLoaded",function() {
             main.appendChild(section);
         }
     }
-    placeImg();
     
-})
 export {placeImg}
