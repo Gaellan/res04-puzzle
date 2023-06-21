@@ -1,8 +1,6 @@
-// section background-image 
-
-function render8()
+function render5()
 {
-    let images = [452, 412, 205, 232, 48, 218, 363, 324, 135, 387, 288, 131, 219, 274, 413, 296, 308, 337, 108, 384, 8, 212, 323, 137, 116, 224, 145, 53, 312, 125, 321, 76, 227, 177, 319, 322, 316, 92, 435];
+    let images = [333, 364, 142, 392, 5, 109, 282, 260, 17, 129, 451, 68, 123, 66, 169, 210, 305, 28, 195, 349, 181, 290, 267, 187, 196, 69, 407, 386, 249, 381, 202, 167, 283, 74, 157, 360, 268, 372, 132];
     const cols = 19;
     // const rows = 24;
 
@@ -31,6 +29,8 @@ function render8()
     })
 }
 
-export { render8 };
+window.addEventListener('DOMContentLoaded',() => {
+    render5()
+})
 
-
+export { render5 }
