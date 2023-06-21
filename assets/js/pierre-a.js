@@ -31,8 +31,6 @@ function render8()
     })
 }
 
-window.addEventListener('DOMContentLoaded',() => {
-    render8()
-})
+export { render8 };
 
 
